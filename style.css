@@ -397,3 +397,106 @@ header {
 .week-days #Monday{
     color: #ED563b;
 }
+table {
+    width: 100%;
+    /* margin: 0 auto; */
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border: 1px solid white;
+}
+
+thead th {
+    color: white;
+    padding: 2.5rem 3.125rem;
+    text-align: center;
+}
+
+tbody td {
+    color: white;
+    font-weight: 500;
+    font-size: 0.8rem;
+    text-align: center;
+    padding: 2.5rem 3.125rem;
+}
+
+.th-1 {
+    border-left: none;
+}
+
+.td-4 {
+    border-right: none;
+}
+
+.b-left {
+    border-inline: none;
+}
+
+/* expert trainers */
+.expert-t{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    margin-block: 5rem;
+}
+.expert-t .ex-up{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    margin-top: 4rem;
+}
+.ex-up h2{
+    color: #232d39;
+    font-weight: 800;
+    font-size: 2rem;
+}
+.ex-up h2 span{
+    color: #ED563b;
+}
+.ex-up p{
+    color: #7A7A7A;
+    font-size: 1rem;
+}
+
+.expert-t .experts{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 1.25rem;
+    gap: 2.5rem;
+}
+.experts .expert{
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 30px;
+}
+.expert .path{
+    color: #ED563b;
+    font-size: 14px;
+}
+.expert h4{
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+.expert p{
+    color: #7A7A7A;
+    font-size: 0.9rem;
+}
+.expert .social-meida{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
