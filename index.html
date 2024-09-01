@@ -301,8 +301,69 @@
                         <i class="fa-brands fa-behance"></i>
                     </div>
                 </div>
+                <div class="expert">
+                    <img src="/images/third-trainer.jpg" alt="">
+                    <p class="path">Power Trainer</p>
+                    <h4>Paul D. Newman</h4>
+                    <p>Bitters cliche tattooed 8-bit distillery <br> mustache. Keytar succulents gluten- <br> free vegan church-key pour-over <br>
+                        seitan
+                        flannel.</p>
+                    <div class="social-meida">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                        <i class="fa-brands fa-behance"></i>
+                    </div>
+                </div>
             </div>
         </div>
       </section>
+
+      <!-- map and forms -->
+       <section class="mapform-flex">
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127591.72499587983!2d45.22409101500787!3d2.059370223684901!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3d58425955ce6b53%3A0xbb20eaaa52cc59d9!2sMogadishu!5e0!3m2!1sen!2sso!4v1717826967148!5m2!1sen!2sso"
+                width="" height="" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="form">
+            <form action="">
+                <div class="user-email">
+                <input type="text" placeholder="Your Name*">
+                <input type="email" placeholder="Your Email* ">
+                </div>
+                <input type="text" placeholder="Subject">
+                <textarea class="textarea" cols="20" rows="10" placeholder="Massage"></textarea>
+                <button type="submit">SEND MESSAGE</button>
+            </form>
+        </div>
+       </section>
+
+       <footer>
+        <p>Copyright &copy;2024 Training Studio - Designed by <span> Prithvi</p>
+       </footer>
+    <!-- javascript -->
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+        const mobileMenu = document.querySelector(".menu-links");
+        const icons = document.querySelectorAll("i");
+
+        hamburger.addEventListener("click", function (event) {
+            const isVisible = mobileMenu.getAttribute('data-visible');
+            if (isVisible == "true") {
+                // qari hiding
+                mobileMenu.setAttribute('data-visible', "false");
+                icons[0].setAttribute('data-visible', "true");
+                icons[1].setAttribute('data-visible', "false");
+            } else if (isVisible == "false") {
+                // soo bandhig showing
+                mobileMenu.setAttribute('data-visible', "true");
+                icons[0].setAttribute('data-visible', "false");
+                icons[1].setAttribute('data-visible', "true");
+            }
+        });
+</script>
 </body>
+
 </html>
