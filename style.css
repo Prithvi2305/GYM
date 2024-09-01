@@ -99,3 +99,107 @@ header {
     color: black;
     z-index: 11111;
 }
+
+/* hero section */
+.hero{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+    margin-top: 5rem;
+    color: white;
+}
+.hero h2{
+    font-weight: 900;
+    font-size: 1.125rem;
+    letter-spacing: 0.5px;
+}
+.hero h1{
+    font-weight: 900;
+    font-size: 5rem;
+}
+.hero h1 span{
+    color: #ED563b;
+}
+.hero .hero-btn{
+    border: none;
+    padding: 14px 17px;
+    background-color: #ED563b;
+    color: #ffff;
+    cursor: pointer;
+}
+.hero .hero-btn:hover{
+    background-color: #ED563b;
+    opacity: 0.8;
+}
+
+
+/* choose program section */
+.ch-program{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    margin-top: 8rem;
+}
+.ch-program .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+.ch-program .content h2{
+    color: #232d39;
+    font-size: 2.5rem;
+}
+.ch-program .content h2 span{
+    color: #ED563b;
+}
+.ch-program .content p{
+    width: 33.75rem;
+    height: 3.125rem;
+    color: #7A7A7A;
+    font-size: 1rem;
+    word-wrap: break-word;
+}
+.ch-program .programs{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    padding: 0 15px;
+    gap: 2rem;
+}
+.programs .program{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.program .details{
+    display: flex;
+    flex-direction: column;
+}
+.program .details h4{
+    font-weight: 600;
+    font-size: 1.1875rem;
+    color: #232d39;
+}
+.program .details p{
+    font-size: 0.875rem;
+    color: #7A7A7A;
+}
+.program .details span{
+    color: #ED563b;
+    font-size: 13px;
+}
+
+/* don't think section */
+.bg-image{
+    background: linear-gradient(rgba(56, 55, 55, 0.3), rgba(80, 80, 80, 0.3)), url('https://templatemo.com/templates/templatemo_548_training_studio/assets/images/cta-bg.jpg') center/cover no-repeat;
+    height: 30.49375rem;
+    display: flex;
+    align-items: center;
+    margin-block: 10rem;
+}
