@@ -203,3 +203,96 @@ header {
     align-items: center;
     margin-block: 10rem;
 }
+.d-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    height: 11.23125rem;
+}
+.d-flex h2{
+    font-size: 3.25rem;
+    font-weight: 800;
+    text-align: center;
+    color: #FFFFFF;
+}
+.d-flex h2 span{
+    color: #ED563b;
+}
+.d-flex p{
+    font-weight: 400;
+    font-size: 1.3rem;
+    word-wrap: break-word;
+    color: #FFFFFF;
+    text-align: center;
+}
+.d-flex .btn{
+    border: none;
+    padding: 20px 42px;
+    background-color: #ED563b;
+    color: #ffff;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.d-flex .btn:hover{
+    background-color: #ED563b;
+    opacity: 0.8;
+}
+
+/* our classes section */
+.classes-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 8.75rem;
+    margin-block: 4rem;
+
+}
+.classes-flex .c-up{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+.classes-flex .c-up h2{
+    font-weight: 800;
+    font-size: 2.5rem;
+    color: #232d39;
+}
+.classes-flex .c-up h2 span{
+    color: #ED563b;
+}
+.classes-flex .c-up p{
+    font-weight: 400;
+    font-size: 1.3rem;
+    line-height: 1.8625rem;
+    color: #7A7A7A;
+    text-align: center;
+    word-wrap: break-word;
+}
+.c-down-grid{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    /* background-color: #ED563b; */
+    gap: 3rem;
+}
+.left-c{
+    grid-column: 1 / span 2;
+    /* background-color: #232d39; */
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+.left-c .training-classes{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
